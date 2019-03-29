@@ -1,8 +1,9 @@
 def my_collect(collection)
+  new_collection = Array.new
   if block_given?
     i = 0
     while i < collection.length
-      return yield collection[i]
+        new_collection.push(yield collection[i])
       i += 1
     end
   else
