@@ -1,8 +1,8 @@
 def my_collect(collecion)
   if block_given?
     i = 0
-    while i < array.length
-      yield array[i]
+    while i < collection.length
+      yield collection[i]
       i += 1
     end
   else
