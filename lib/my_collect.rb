@@ -1,2 +1,1 @@
-
-
+my_collect(collecion)
