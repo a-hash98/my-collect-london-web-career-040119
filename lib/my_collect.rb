@@ -9,6 +9,7 @@ def my_collect(collection)
   else
     return "No block was given!"
   end
+  return new_collection
 end
 
 my_collect(["a","b","c"]) do |item|
